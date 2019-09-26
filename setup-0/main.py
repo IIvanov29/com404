@@ -1,2 +1,2 @@
-print("Hello")
-print("- " * len("Hello"))
+print("Hello\n")
+print("-" * len("Hello"))
