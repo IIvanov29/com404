@@ -34,10 +34,10 @@ def ConfigMaker():
         print("Let's decide what monitor to get for you.")
         print("Would you like a high-end, high quality picture monitor, or would you like a cheaper one to save money? (high-end or high-quality /cheap)")
         monitor = input()
-
+        global endmonitor
         if(monitor == "high-end") or (monitor== "high-quality"):
             print("So you like your games and videos in high quality, that's great!")
-            global endmonitor
+
             endmonitor = "high-end"
 
         elif(monitor == "cheap"):
