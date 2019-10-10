@@ -8,5 +8,4 @@ while(a<100):
     a += 1
     num += a
 
-
 print ("Done, the answer is " + str(num))
