@@ -3,10 +3,13 @@
 print("What phrase do you see?")
 user_word = input()
 
-i = 1
+reversedstring = ""
 
-for [i] in user_word :
-    i+=1
-    reversedphrase =[i] + reversedphrase
+print("Reversing...")
 
-print(reversedphrase)
+for i in user_word:
+
+    reversedstring = i + reversedstring
+
+print("The phrase is: " + reversedstring)
+

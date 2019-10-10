@@ -9,5 +9,5 @@ print("The phrase is... ", end="")
 for count in range (len(phrase),0,-1):
     print(phrase[count-1 ], end="")
 
-print("")
+print("\n")
 
