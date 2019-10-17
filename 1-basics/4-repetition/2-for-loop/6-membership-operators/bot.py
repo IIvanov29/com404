@@ -7,9 +7,9 @@ reversedstring = ""
 
 print("Reversing...")
 
-for i in user_word:
+for letter in user_word:
 
-    reversedstring = i + reversedstring
+    reversedstring = letter + reversedstring
 
 print("The phrase is: " + reversedstring)
 
