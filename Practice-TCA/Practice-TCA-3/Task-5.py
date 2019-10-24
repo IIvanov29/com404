@@ -1,12 +1,15 @@
 print("Welcome to the Planet of the Apes...")
 
 #Declaring variables for the number of times the loop will be executed and for storing the totals for humans and apes
-loop_variable = 7
+MAX_ITERATIONS = 7
+START_VALUE = 1
+STEP_VALUE = 1
+
 humans = 0
 apes = 0
 
 #Starting the loop, which will be executed the amount of times, stored in the "loop_variable"
-for repetitions in range(0,loop_variable,1):
+for repetitions in range(START_VALUE,MAX_ITERATIONS,STEP_VALUE):
     #Taking the users input
     print("...be ye human or be ye ape?")
     human_or_ape = input().lower()
